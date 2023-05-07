@@ -1,0 +1,378 @@
+@media(max-width:992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .navbar .nav-btn {
+        display: block;
+    }
+
+    .navbar .navbar-nav {
+        flex-direction: column;
+        position: fixed;
+        left: -25%;
+        width: 25%;
+        top: 10%;
+        bottom: 0;
+        background-color: slateblue;
+        transition: all 0.5s;
+        z-index: 99;
+    }
+
+    .navbar .nav-link {
+        padding: 15px;
+        color: white;
+    }
+
+    .slide .navbar-nav {
+        left: 0;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+    .navbar .nav-btn {
+        margin-left: 656px;
+    }
+    .banner h1 {
+        font-size: 60px;
+    }
+
+    .banner .video-data {
+        width: 20%;
+    }
+
+    .banner-image {
+        text-align: center;
+    }
+
+    .about-img {
+        text-align: center;
+    }
+
+    .heading-data h2 {
+        width: 50%;
+    }
+
+    .faq .faq-data {
+        text-align: center;
+    }
+
+    .faq .faq-data h2 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .faq-img {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .expert-card {
+        overflow: hidden;
+    }
+
+    .quote .heading-data {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .quote .heading-data h2 {
+        margin-bottom: 25px;
+        width: 50% !important;
+    }
+
+    .quote .heading-data p {
+        width: 50%;
+        margin: 0 auto 25px;
+    }
+
+    .pricing .card {
+        margin-bottom: 30px;
+    }
+
+    .pricing .heading-data {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    ul.nav.nav-pills.btn-group {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        max-width: 576px;
+    }
+    .navbar .nav-btn {
+        margin-left: 430px;
+    }
+    .banner-img-1 {
+        display: none;
+    }
+
+    .banner {
+        padding: 110px 0 100px;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .banner p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .banner .video-data {
+        width: 30%;
+    }
+
+    .quick-data {
+        margin-bottom: 25px;
+    }
+
+    .about {
+        padding-top: 95px;
+    }
+
+    .owl-dots {
+        display: none;
+    }
+
+    .heading-data h2 {
+        width: 80%;
+    }
+
+    .services {
+        padding: 100px 0;
+    }
+
+    .faq {
+        padding: 100px 0 110px;
+    }
+
+    .faq .faq-data h2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .heading-data h2 {
+        width: 90%;
+    }
+
+    .expert {
+        padding: 100px 0;
+    }
+
+    .quote .heading-data h2 {
+        width: 90% !important;
+    }
+
+    .quote .heading-data p {
+        width: 90%;
+    }
+
+    .quote {
+        padding-bottom: 95px;
+    }
+
+    .count {
+        padding: 60px 0;
+    }
+
+    .testomonial {
+        padding: 100px 0 80px;
+    }
+
+    .articles .heading-data h2 {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .articles .card {
+        margin-bottom: 30px;
+    }
+
+    .articles {
+        padding: 100px 0;
+    }
+    footer .data-4 {
+        margin-left: 0px;
+    }
+    footer {
+        padding: 90px 0 60px;
+    }
+}
+
+@media(max-width:576px) {
+    .navbar .navbar-nav {
+        left: -35%;
+        width: 35%;
+        top: 10%;
+        z-index: 99;
+    }
+    .slide .navbar-nav {
+        left: 0;
+    }
+    .banner h1 span {
+        display: inline;
+    }
+    .navbar .nav-btn {
+        margin-left: 200px;
+    }
+    .faq {
+        padding: 100px 0 80px;
+    }
+
+    .expert {
+        padding: 60px 0;
+    }
+
+    .expert-img::after {
+        width: 52%;
+    }
+
+    .expert-card .hover-icon {
+        left: 8%;
+    }
+
+    .articles {
+        padding: 80px 0;
+    }
+}
+
+@media(max-width:320px) {
+    .navbar .navbar-nav {
+        left: -60%;
+        width: 60%;
+        top: 10%;
+        z-index: 99;
+    }
+    .slide .navbar-nav {
+        left: 0;
+    }
+    .container-fluid {
+        padding: 0px 20px;
+    }
+    .navbar .nav-btn {
+        margin-left: 80px;
+    }
+    .banner {
+        padding: 80px 0 80px;
+    }
+
+    .banner h1 span {
+        display: block;
+        height: 50px;
+    }
+
+    .banner p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .banner-btn.d-flex.align-items-center {
+        display: block !important;
+    }
+    a.video-btn {
+        margin-top: 20px;
+        display: flex;
+    }
+    .banner .video-data {
+        position: relative;
+        top: -60px;
+        left: 60px;
+        width: 100%;
+    }
+    .quick-card {
+        padding: 50px 20px 20px;
+    }
+    .quick-card .quick-data h4 {
+        padding: 11px 11px;
+    }
+    .about {
+        padding-top: 50px;
+    }
+    .about .about-data h2 {
+        font-size: 30px;
+    }
+    .about .about-data p {
+        font-size: 15px;
+    }
+    .about .about-data li {
+        width: 100%;
+    }
+    .icon {
+        padding: 70px 0 0;
+    }
+    .heading-data h2 {
+        width: 100%;
+    }
+    .services-card {
+        padding: 55px 40px 50px 30px;
+    }
+    .services-card .quick-img {
+        position: relative !important;
+        top: 0;
+        left: 0;
+        margin-bottom: 15px;
+    }
+    .faq .faq-data h2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .faq {
+        padding: 60px 0 70px;
+    }
+    .faq .faq-data {
+        text-align: left;
+    }
+    .expert-card .hover-icon {
+        left: 15%;
+    }
+    .expert-img::after {
+        width: 98%;
+    }
+    .quote-form {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .quote .heading-data {
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .quote .heading-data h2 {
+        width: 100% !important;
+    }
+    .quote {
+        padding-bottom: 45px;
+    }
+    .pricing .heading-data {
+        margin-top: 20px;
+        text-align: left;
+    }
+    .pricing .card {
+        padding: 30px;
+    }
+    .articles .heading-data h2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .articles .card-body {
+        padding: 30px 30px 40px;
+    }
+    .articles {
+        padding: 40px 0;
+    }
+    .top {
+        right: 20px;
+        bottom: 100px;
+    }
+}
